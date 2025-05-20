@@ -247,15 +247,9 @@
     z-index: 2;
 }
 
-.services-body .section-title img {
-    max-width: 22px;
-    margin-right: -28px;
-    margin-top: -3px;
-}
 
-.services-body .section-title {
-    align-items: flex-start;
-}
+
+
 
 .service-decor {
     position: absolute;
@@ -270,7 +264,7 @@
 
 .services-cnt {
     margin-top: 33px;
-    padding: 0 70px;
+    padding: 0 50px;
     gap: 36px;
 }
 .services-section.active .services-info{
@@ -1376,9 +1370,14 @@
 .conversion-info {
     margin-top: 77px;
     gap: 31px;
+    position: relative;
     flex-wrap: wrap;
 }
-
+.conversion-info-decor{
+    position: absolute;
+    bottom: 0;
+    right: -20px;
+}
 .conversion-tools p {
     font-weight: 400;
     font-size: 15px;
@@ -2279,6 +2278,15 @@
         display: flex;
         bottom: 100px;
         left: 160px;
+    }
+    .services-body .section-title img {
+        max-width: 22px;
+        margin-right: -28px;
+        margin-top: -3px;
+    }
+    .services-body .section-title {
+        align-items: flex-start;
+        margin-right: 20px;
     }
 }
 @media (max-width: 480px) {
