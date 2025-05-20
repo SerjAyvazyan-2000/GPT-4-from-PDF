@@ -1,0 +1,1259 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>GPT-4-from-PDF-to-DOC-and-DOCX</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+          rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+          rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+          rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+          rel="stylesheet">
+</head>
+<body>
+
+
+<div class="wrapper">
+    <header data-animate-header  class="header">
+        <div class="container">
+            <div class="header-body G-align-center">
+                <a href="index.html" class="header-logo G-flex">
+                    <img class="img-desktop" src="assets/images/logo.svg" alt="logo">
+                    <img class="img-mobile" src="assets/images/logoMobile.svg" alt="">
+                </a>
+                <div class="menu-bg"></div>
+
+                <div class="header-cnt G-align-center">
+                    <nav class="menu">
+                        <div class="menu-content-mobile">
+                            <a class="header-logo-mobile" href="index.html">
+                                <i class="icon icon-logo"></i>
+                            </a>
+                        </div>
+
+                        <ul class='menu-list G-align-center'>
+                            <li class="menu-item">
+                                <a class='menu-link' href="#advantages">Преимущества</a>
+                            </li>
+                            <li class="menu-item">
+                                <a class="menu-link" href="#howWorq">Как работает</a>
+                            </li>
+                            <li class="menu-item">
+                                <a class="menu-link" href="#functional">Функционал</a>
+                            </li>
+                            <li class="menu-item">
+                                <a class="menu-link" href="#reviews">Отзывы</a>
+                            </li>
+                            <li class="menu-item">
+                                <a class="menu-link" href="#faq">FAQ</a>
+                            </li>
+                        </ul>
+
+                        <div class="header-mobile-actions  ">
+                            <button class="btn-login ">Вход</button>
+                            <button class="btn-register ">Регистрация</button>
+                        </div>
+
+                    </nav>
+                    <div class="header-actions G-align-center">
+                        <button class="btn-login">Вход</button>
+                        <button class="btn-register">Регистрация</button>
+                    </div>
+                </div>
+
+
+                <div class="burger">
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+
+
+        <section class="hero-section">
+            <div class="container">
+                <div class="hero-body">
+                    <div class="hero-cnt G-column-center">
+                        <div data-animate data-delay="0" class="hero-title ">
+                            <h1>Нейросеть для конвертации</h1>
+                            <div data-animate data-delay="300" class="hero-bottom-title G-align-center">
+                                <span>из</span> <img src="assets/images/titleIcon1.webp" alt=""> <span>PDF в </span>
+                                <img src="assets/images/titleIcon2.webp" alt=""> <span>DOC и DOCX</span>
+                            </div>
+
+                            <div data-animate data-delay="600" class="hero-title-decor G-flex">
+                                <img class="img-desktop" src="assets/images/titleDecor.png" alt="">
+                                <img class="img-mobile" src="assets/images/titleDecorMobile.png" alt="">
+
+                            </div>
+                        </div>
+
+                        <div data-animate data-delay="800" class="hero-tools">
+                            <button class="btn-primary">Конвертировать бесплатно</button>
+                            <p>конвертация <a>за 5 секунд</a></p>
+                        </div>
+                    </div>
+
+                    <div class="hero-stars G-flex">
+                        <img src="assets/images/heroStars.webp" alt="">
+                    </div>
+                    <div class="hero-prompt G-flex">
+                        <img class="img-desktop" src="assets/images/prompt.webp" alt="">
+                        <img class="img-mobile" src="assets/images/promptMobile.webp" alt="">
+                    </div>
+                    <div class="hero-magnifyingGlass G-flex">
+                        <img src="assets/images/magnifyingGlass.png" alt="">
+                    </div>
+
+                    <div class="hero-powered G-align-center">
+                        <p>Powered by</p>
+                        <i class="icon icon-powered"></i>
+                        <p>OpenAI</p>
+                    </div>
+
+                    <div class="hero-folder G-flex">
+                        <img class="img-desktop" src="assets/images/folder.webp" alt="">
+                        <img class="img-mobile" src="assets/images/folderMobile.webp" alt="">
+                    </div>
+
+                    <div class="hero-speech G-flex">
+                        <img src="assets/images/speech.webp" alt="">
+                    </div>
+                    <div class="hero-plusGradient G-flex">
+                        <img src="assets/images/plusGradient.webp" alt="">
+                    </div>
+                    <div class="hero-speechBubble G-flex">
+                        <img src="assets/images/speechBubble.webp" alt="">
+                    </div>
+
+                </div>
+            </div>
+            <div class="hero-decor hero-decor-one">
+                <img class="img-desktop" src="assets/images/heroDecor1.png" alt="">
+                <img class="img-mobile" src="assets/images/heroDecor1Mobile.png" alt="">
+
+            </div>
+
+
+            <div class="hero-decor hero-decor-for">
+                <img src="assets/images/heroDecor4.png" alt="">
+            </div>
+
+
+        </section>
+
+        <section  class="services-section animation section">
+            <div class="container">
+                <div class="services-body">
+                    <div class=" section-title G-align-center">
+                        <img src="assets/images/stars.webp" alt="">
+                        <h2>GPT-4 — современные <span class="text-wrap">технологии для документов</span></h2>
+                    </div>
+
+                    <div data-animate class="services-users  G-align-center">
+                        <div class="services-users-img G-flex">
+                            <img src="assets/images/users.webp" alt="">
+                        </div>
+                        <h3>2 млн+</h3>
+                        <p>постоянных
+                            <span class="text-wrap">пользователей</span></p>
+
+                    </div>
+
+                    <div class="services-cnt G-justify-between">
+                        <div class="services-info">
+                            <div class="services-info-titles">
+                                <h3>GPT-4</h3>
+                                <p>Сервис аккуратно превращает любые PDF-документы
+                                    в word-файлы: быстро, без искажений и с сохранением структуры. Просто, как Ctrl+C и
+                                    Ctrl+V</p>
+
+                                <div class="services-titles-decor G-flex">
+                                    <img src="assets/images/servicesTitlesDecor.png" alt="">
+                                </div>
+                            </div>
+
+                            <div class="services-info-clues G-align-center">
+                                <div class="services-info-clue G-align-center">
+                                    <h4>до 99%</h4>
+                                    <p>экономия <span class="text-wrap">времени</span></p>
+                                </div>
+                                <div class="services-info-clue G-align-center">
+                                    <h4>89,7%</h4>
+                                    <p>пользователей <span class="text-wrap">довольны</span></p>
+                                </div>
+                            </div>
+
+                            <p class="service-tag">Больше никакой мороки с копированием, потерянной версткой и битым
+                                текстом</p>
+
+                            <button class="services-btn btn-primary">Начать бесплатно</button>
+                        </div>
+                        <div class="services-media">
+                            <div class="services-picture G-flex">
+                                <img src="assets/images/servicesMedia.webp" alt="">
+                            </div>
+                            <div class="services-media-decor media-decor-one G-flex">
+                                <img src="assets/images/servicesMediaDecor1.png" alt="">
+                            </div>
+
+                            <div class="heart-icon G-flex">
+                                <img src="assets/images/heart.webp" alt="">
+                            </div>
+
+                            <div class="element-3d G-flex">
+                                <img src="assets/images/3dElement.webp" alt="">
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="service-decor service-decor--one G-flex">
+                        <img class="img-desktop" src="assets/images/service-decor.png" alt="">
+                        <img class="img-mobile" src="assets/images/service-decorMobile.png" alt="">
+
+                    </div>
+
+                    <div class="services-media-decor media-decor-two G-flex">
+                        <img src="assets/images/servicesMediaDecor2.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="service-decor service-decor--two G-flex">
+                <img class="img-desktop" src="assets/images/serviceDecor2.png" alt="">
+                <img class="img-mobile" src="assets/images/serviceDecor2Mobile.png" alt="">
+
+
+            </div>
+        </section>
+
+
+        <section id="howWorq" class="how-works-section animation section">
+            <div class="container">
+                <div class="how-works-body">
+                    <div class="section-title G-align-center">
+                        <img src="assets/images/stars.webp" alt="">
+                        <h2>Как сконвертировать <span class="mobile-text-wrap ">PDF в DOC [X]</span></h2>
+
+                    </div>
+                    <p class="works-sub-title">С помощью нейросети вы легко превратите PDF-файл
+                        в редактируемый документ</p>
+
+                    <div class="how-works-carts G-flex">
+                        <div  class="works-cart">
+                            <div class="works-cart-header G-align-center">
+                                <div class="works-cart-icon G-flex">
+                                    <img src="assets/images/worksCartIcon1.webp" alt="">
+                                </div>
+                                <p class="works-cart-title">Загрузите pdf-файл(ы)</p>
+                            </div>
+                            <p class="works-cart-text">Выберите файлы с компьютера, Google Диска, Dropbox, по ссылке или
+                                перетащив их на
+                                страницу.</p>
+                            <p class="works-cart-number">01</p>
+                        </div>
+                        <div class="works-cart">
+                            <div class="works-cart-header G-align-center">
+                                <div class="works-cart-icon G-flex">
+                                    <img src="assets/images/worksCartIcon2.webp" alt="">
+                                </div>
+                                <p class="works-cart-title">Выберите <span class="text-wrap">формат</span></p>
+                            </div>
+                            <p class="works-cart-text">Выберите .docx, .doc или любой другой формат из более чем 200
+                                доступных</p>
+                            <p class="works-cart-number">02</p>
+                        </div>
+
+                        <div class="works-cart">
+                            <div class="works-cart-header G-align-center">
+                                <div class="works-cart-icon G-flex">
+                                    <img src="assets/images/worksCartIcon3.webp" alt="">
+                                </div>
+                                <p class="works-cart-title">Загрузите ваш <span>doc(x)-файл(ы)</span></p>
+                            </div>
+                            <p class="works-cart-text">Конвертация происходит автоматически. По завершению процесса
+                                скачайте готовый файл</p>
+                            <p class="works-cart-number">03</p>
+                        </div>
+
+                        <div class="works-cart">
+                            <div class="works-cart-header G-align-center">
+                                <div class="works-cart-icon G-flex">
+                                    <img src="assets/images/worksCartIcon4.webp" alt="">
+                                </div>
+                                <p class="works-cart-title">Редактируйте <span class="text-wrap">ваши файлы</span></p>
+                            </div>
+                            <p class="works-cart-text">Теперь это обычный текстовый файл. Вы можете вносить любые
+                                правки, прямо в Word</p>
+                            <p class="works-cart-number">04</p>
+                        </div>
+                    </div>
+
+                    <div class="how-works-tools">
+                        <button class="how-works-btn btn-primary">Конвертировать файлы</button>
+                        <p>конвертация <a>за 5 секунд</a></p>
+                    </div>
+
+                    <div class="how-works-decor works-decor--one">
+                        <img src="assets/images/howWorksDecor.png" alt="">
+                    </div>
+                    <div class="how-works-decor works-decor--two">
+                        <img src="assets/images/worksDecorTwo.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="advantages" class="advantages-section animation section">
+            <div class="container">
+                <div class="advantages-body">
+                    <div class="section-title G-align-center">
+                        <img src="assets/images/stars.webp" alt="">
+                        <h2>Ваш документ — без ограничений</h2>
+
+                    </div>
+                    <div class="advantages-cnt G-flex">
+                        <div class="advantages-info">
+                            <div class="advantages-info-titles G-align-center">
+                                <div class="advantages-info-icon G-center">
+                                    <i class="icon icon-folder"></i>
+                                </div>
+                                <h4>Работа в один клик</h4>
+                            </div>
+                            <p class="advantage-text">Загрузите PDF — мы сделаем остальное. Документ будет готов
+                                к работе: с сохранённым содержанием, таблицами и заголовками.
+                                Не нужно устанавливать дополнительные программы.
+                                Всё работает прямо в браузере.</p>
+
+                            <div class="advantages-converted">
+                                <h4>Сконвертировано файлов:</h4>
+                                <p>43. 050. 250 </p>
+                                <div class="advantages-converted-decor G-flex">
+                                    <img src="assets/images/advantagesConvertedDecor.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="advantages-media G-flex">
+                            <div class="advantages-picture G-flex">
+                                <img src="assets/images/advantagesMedia.webp" alt="">
+
+                            </div>
+
+                            <div class="advantages-icon G-flex">
+                                <img src="assets/images/plusGradient2.webp" alt="">
+                            </div>
+                        </div>
+
+                        <div class="advantages-converted-mobile">
+                            <h4>Сконвертировано файлов:</h4>
+                            <p>43. 050. 250 </p>
+                            <div class="advantages-converted-decor G-flex">
+                                <img src="assets/images/advantagesConvertedDecor.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="advantages-decor advantages-decor--tree">
+                        <img src="assets/images/advantagesDecorTree.png" alt="">
+                    </div>
+                    <div class="advantages-decor advantages-decor--for">
+                        <img class="img-desktop" src="assets/images/advantagesDecorFor.webp" alt="">
+                        <img class="img-mobile" src="assets/images/advantagesDecorForMobile.png" alt="">
+
+                    </div>
+                    <div class="advantages-decor advantages-decor--five">
+                        <img src="assets/images/advantagesDecorFive.webp" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="advantages-decor advantages-decor--one">
+                <img src="assets/images/advantagesDecorOne.webp" alt="">
+            </div>
+            <div class="advantages-decor advantages-decor--two">
+                <img class="img-desktop" src="assets/images/advantagesDecorTwo.png" alt="">
+                <img class="img-mobile" src="assets/images/advantagesDecorTwoMobile.png" alt="">
+
+            </div>
+
+            <div class="advantages-decor-mobile">
+                <img src="assets/images/advantagesDecorMobile.png" alt="">
+            </div>
+        </section>
+
+
+        <section id="functional" class="functional-section section">
+            <div class="container">
+                <div class="functional-body">
+                    <div class="section-title G-align-center">
+                        <img src="assets/images/stars.webp" alt="">
+                        <h2>Работайте с текстом, <span class="mobile-text-wrap">а не с форматом</span></h2>
+
+                    </div>
+
+                    <div class="functional-cnt G-flex-column">
+                        <div class="functional-top-block G-flex">
+                            <div class="functional-media G-flex">
+                                <img src="assets/images/functionalMedia.webp" alt="">
+                            </div>
+                            <div class="functional-info">
+                                <h3 class="functional-info-title">Для тех, кто работает <span class="mobile-text-wrap">с текстом — каждый день</span>
+                                </h3>
+                                <div class="functional-info-texts G-flex-column">
+
+                                    <div class="functional-text-icon G-flex">
+                                        <img src="assets/images/gradientsSpeechBubble.webp" alt="">
+                                    </div>
+                                    <p>
+                                        Нужен аккуратный .docx из PDF без потерь? Этот инструмент создан, чтобы
+                                        экономить ваше время и нервы. Подходит для всех, кому важна скорость и чистый
+                                        результат.
+                                    </p>
+                                </div>
+
+                                <div class="functional-tags G-flex">
+                                    <div class="functional-tag">Офисные сотрудники</div>
+                                    <div class="functional-tag">Преподаватели</div>
+                                    <div class="functional-tag">Юристы</div>
+                                    <div class="functional-tag">Менеджеры</div>
+                                    <div class="functional-tag">Копирайтеры</div>
+                                    <div class="functional-tag">Бухгалтеры</div>
+                                </div>
+
+                                <div class="functional-tools G-flex-column">
+                                    <div class="functional-tools-title G-align-center">
+                                        <span>из</span> <img src="assets/images/titleIcon1.webp" alt="">
+                                        <span>PDF в </span>
+                                        <img src="assets/images/titleIcon2.webp" alt=""> <span>DOC и DOCX</span>
+
+                                        <div class="functional-tools-decor G-flex">
+                                            <img src="assets/images/functionalToolsDecor.png" alt="">
+                                        </div>
+                                    </div>
+                                    <button class="btn-primary">Конвертировать файлы</button>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="functional-description G-align-end">
+                            <div class="functional-descr-item">
+                                <div class="functional-item-title G-align-center">
+                                    <img class="functional-item-icon" src="assets/images/functionalItemIcon.png" alt="">
+                                    <h4>От PDF к Word — быстро, удобно</h4>
+                                </div>
+                                <div class="functional-item-socials G-align-center">
+                                    <p>Загрузите файл — и получите результат за пару секунд. Без рекламы и сложных
+                                        манипуляций</p>
+
+                                    <div class="functional-socials desktop-socials G-align-center">
+                                        <a class="socials-item G-flex" href="">
+                                            <img src="assets/images/vk.webp" alt="">
+                                        </a>
+                                        <a class="socials-item G-flex" href="">
+                                            <img src="assets/images/google.webp" alt="">
+                                        </a>
+                                        <a class="socials-item G-flex" href="">
+                                            <img src="assets/images/yandex.png" alt="">
+                                        </a>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="functional-clues-item G-align-center">
+                                <div class="functional-item-clue G-align-center">
+                                    <h4>в 7 раз</h4>
+                                    <p>быстрее, чем <span class="text-wrap">ручной перенос</span></p>
+                                </div>
+                                <div class="functional-item-clue G-align-center">
+                                    <h4>95%</h4>
+                                    <p>точность <span class="text-wrap">форматирования</span></p>
+                                </div>
+                            </div>
+
+                            <div class="functional-socials-mobile G-align-center">
+                                <a class="socials-item G-flex" href="">
+                                    <img src="assets/images/vk.webp" alt="">
+                                </a>
+                                <a class="socials-item G-flex" href="">
+                                    <img src="assets/images/google.webp" alt="">
+                                </a>
+                                <a class="socials-item G-flex" href="">
+                                    <img src="assets/images/yandex.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="functional-cnt-decor G-flex">
+                            <img class="img-desktop" src="assets/images/functionalDecor.webp" alt="">
+                            <img class="img-mobile" src="assets/images/functionalDecorMobile.webp" alt="">
+
+                        </div>
+                        
+                        <div class="functional-decor-mobile G-flex">
+                            <img src="assets/images/functionalDecorMobile2.webp" alt="">
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="reviews" class="reviews-section">
+            <div class="container">
+                <div class="reviews-faq-body">
+                    <div class="reviews-body">
+                        <div class="reviews-box  G-justify-between">
+
+                            <div data-id="reviews1" class="reviews-left-item">
+                                <div class="reviews-left-img">
+                                    <img src="assets/images/reviews1.webp" alt="">
+                                </div>
+                                <div class="reviews-left-info">
+                                    <div class="reviews-item-header G-justify-between">
+                                        <div class="reviews-author">
+                                            <h4 class="">Максим К.</h4>
+                                            <p>преподаватель истории</p>
+                                        </div>
+                                        <div class="reviews-icon G-flex">
+                                            <img src="assets/images/estimation1.svg" alt="">
+                                        </div>
+
+                                    </div>
+                                    <div class="reviews-item-text">
+                                        Готовлю материалы для студентов, часто приходится работать с отсканированными
+                                        статьями. Этот конвертер — находка, текст извлекает аккуратно, таблицы тоже
+                                        тянет.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div data-id="reviews2" class="reviews-left-item">
+                                <div class="reviews-left-img">
+                                    <img src="assets/images/reviews2.webp" alt="">
+                                </div>
+                                <div class="reviews-left-info">
+                                    <div class="reviews-item-header G-justify-between">
+                                        <div class="reviews-author">
+                                            <h4>Ирина С.</h4>
+                                            <p>юрист</p>
+                                        </div>
+                                        <div class="reviews-icon G-flex">
+                                            <img src="assets/images/estimation1.svg" alt="">
+                                        </div>
+
+                                    </div>
+                                    <div class="reviews-item-text">
+                                        Часто получаю документы в PDF, которые нужно править — раньше
+                                        тратила часы на копирование. А тут просто загрузила, и через 5
+                                        секунд всё в Word, без потерь и искажений.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div data-id="reviews3" class="reviews-left-item">
+                                <div class="reviews-left-img G-flex">
+                                    <img src="assets/images/reviews3.webp" alt="image">
+                                </div>
+                                <div class="reviews-left-info">
+                                    <div class="reviews-item-header G-justify-between">
+                                        <div class="reviews-author">
+                                            <h4>Дмитрий М.</h4>
+                                            <p>студент</p>
+                                        </div>
+                                        <div class="reviews-icon G-flex">
+                                            <img src="assets/images/estimation1.svg" alt="">
+                                        </div>
+
+                                    </div>
+                                    <div class="reviews-item-text">
+                                        Нужно было быстро перевести лекции из PDF в текст для шпоры. Всё сделал за пару
+                                        минут, результат — идеально читаемый файл.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div data-id="reviews4" class="reviews-left-item">
+                                <div class="reviews-left-img G-flex">
+                                    <img src="assets/images/reviews4.webp" alt="image">
+                                </div>
+                                <div class="reviews-left-info">
+                                    <div class="reviews-item-header G-justify-between">
+                                        <div class="reviews-author">
+                                            <h4>Оксана Л.</h4>
+                                            <p>SMM-менеджер</p>
+                                        </div>
+                                        <div class="reviews-icon G-flex">
+                                            <img src="assets/images/estimation1.svg" alt="">
+                                        </div>
+
+                                    </div>
+                                    <div class="reviews-item-text">
+                                        Клиенты кидают брифы в PDF, и раньше это была головная боль. Теперь просто
+                                        загружаю и правлю в Word — экономит кучу времени.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div data-id="reviews5" class="reviews-left-item">
+                                <div class="reviews-left-img G-flex">
+                                    <img src="assets/images/reviews5.webp" alt="image">
+                                </div>
+                                <div class="reviews-left-info">
+                                    <div class="reviews-item-header G-justify-between">
+                                        <div class="reviews-author">
+                                            <h4>Алена Т.</h4>
+                                            <p>переводчик</p>
+                                        </div>
+                                        <div class="reviews-icon G-flex">
+                                            <img src="assets/images/estimation1.svg" alt="">
+                                        </div>
+
+                                    </div>
+                                    <div class="reviews-item-text">
+                                        Мне часто присылают сканы договоров в PDF. Я удивилась, насколько точно сервис
+                                        сохраняет формат и абзацы — меньше ручной работы.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div data-id="reviews6" class="reviews-left-item">
+                                <div class="reviews-left-img G-flex">
+                                    <img src="assets/images/reviews6.webp" alt="image">
+                                </div>
+                                <div class="reviews-left-info">
+                                    <div class="reviews-item-header G-justify-between">
+                                        <div class="reviews-author">
+                                            <h4>Евгений В.</h4>
+                                            <p> бухгалтер</p>
+                                        </div>
+                                        <div class="reviews-icon G-flex">
+                                            <img src="assets/images/estimation1.svg" alt="">
+                                        </div>
+
+                                    </div>
+                                    <div class="reviews-item-text">
+                                        Конвертирую отчёты, счета, накладные. Работает чётко, даже с таблицами
+                                        справляется — не надо пересобирать вручную.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div data-id="reviews7" class="reviews-left-item">
+                                <div class="reviews-left-img G-flex">
+                                    <img src="assets/images/reviews7.webp" alt="image">
+                                </div>
+                                <div class="reviews-left-info">
+                                    <div class="reviews-item-header G-justify-between">
+                                        <div class="reviews-author">
+                                            <h4>Алексей Г.</h4>
+                                            <p>HR-специалист</p>
+                                        </div>
+                                        <div class="reviews-icon G-flex">
+                                            <img src="assets/images/estimation1.svg" alt="">
+                                        </div>
+
+                                    </div>
+                                    <div class="reviews-item-text">
+                                        Использую для обработки резюме, которые приходят в виде PDF. Конвертация в Word
+                                        позволяет быстро вставить нужные данные в шаблоны.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div data-id="reviews8" class="reviews-left-item">
+                                <div class="reviews-left-img G-flex">
+                                    <img src="assets/images/reviews8.webp" alt="image">
+                                </div>
+                                <div class="reviews-left-info">
+                                    <div class="reviews-item-header G-justify-between">
+                                        <div class="reviews-author">
+                                            <h4>Роман П.</h4>
+                                            <p>разработчик</p>
+                                        </div>
+                                        <div class="reviews-icon G-flex">
+                                            <img src="assets/images/estimation1.svg" alt="">
+                                        </div>
+
+                                    </div>
+                                    <div class="reviews-item-text">
+                                        Иногда клиенты присылают техзадания в виде PDF, и нужно править. Удобно, что не
+                                        нужно ставить программы — всё работает в браузере.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div data-id="reviews9" class="reviews-left-item">
+                                <div class="reviews-left-img G-flex">
+                                    <img src="assets/images/reviews9.webp" alt="image">
+                                </div>
+                                <div class="reviews-left-info">
+                                    <div class="reviews-item-header G-justify-between">
+                                        <div class="reviews-author">
+                                            <h4>Наталья Н.</h4>
+                                            <p>маркетолог</p>
+                                        </div>
+                                        <div class="reviews-icon G-flex">
+                                            <img src="assets/images/estimation1.svg" alt="">
+                                        </div>
+
+                                    </div>
+                                    <div class="reviews-item-text">
+                                        PDF-кейсы, которые нам присылают, теперь можно легко адаптировать
+                                        под презентации. Просто, быстро, и не ломает верстку.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="swiper reviews-swiper">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide ">
+                                        <div data-id="reviews1" class="reviews-item G-flex">
+                                            <div class="reviews-item-img">
+                                                <img src="assets/images/reviews1.webp" alt="">
+                                            </div>
+                                            <div class="reviews-item-info">
+                                                <div class="reviews-item-header G-justify-between">
+                                                    <div class="reviews-author">
+                                                        <h4 class="">Максим К.</h4>
+                                                        <p>преподаватель истории</p>
+                                                    </div>
+                                                    <div class="reviews-icon G-flex">
+                                                        <img src="assets/images/estimation1.svg" alt="">
+                                                    </div>
+
+                                                </div>
+                                                <div class="reviews-item-text">
+                                                    Готовлю материалы для студентов, часто приходится работать с
+                                                    отсканированными
+                                                    статьями. Этот конвертер — находка, текст извлекает аккуратно,
+                                                    таблицы тоже
+                                                    тянет.
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div data-id="reviews2" class="reviews-item G-flex">
+                                            <div class="reviews-item-img G-flex">
+                                                <img src="assets/images/reviews2.webp" alt="image">
+                                            </div>
+                                            <div class="reviews-item-info">
+                                                <div class="reviews-item-header G-justify-between">
+                                                    <div class="reviews-author">
+                                                        <h4>Ирина С.</h4>
+                                                        <p>юрист</p>
+                                                    </div>
+                                                    <div class="reviews-icon G-flex">
+                                                        <img src="assets/images/estimation1.svg" alt="">
+                                                    </div>
+
+                                                </div>
+                                                <div class="reviews-item-text">
+                                                    Часто получаю документы в PDF, которые нужно править — раньше
+                                                    тратила часы на копирование. А тут просто загрузила, и через 5
+                                                    секунд всё в Word, без потерь и искажений.
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="swiper-slide">
+                                        <div data-id="reviews3" class="reviews-item G-flex">
+                                            <div class="reviews-item-img G-flex">
+                                                <img src="assets/images/reviews3.webp" alt="image">
+                                            </div>
+                                            <div class="reviews-item-info">
+                                                <div class="reviews-item-header G-justify-between">
+                                                    <div class="reviews-author">
+                                                        <h4>Дмитрий М.</h4>
+                                                        <p>студент</p>
+                                                    </div>
+                                                    <div class="reviews-icon G-flex">
+                                                        <img src="assets/images/estimation1.svg" alt="">
+                                                    </div>
+
+                                                </div>
+                                                <div class="reviews-item-text">
+                                                    Нужно было быстро перевести лекции из PDF в текст для шпоры. Всё
+                                                    сделал за пару минут, результат — идеально читаемый файл.
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div data-id="reviews4" class="reviews-item G-flex">
+                                            <div class="reviews-item-img G-flex">
+                                                <img src="assets/images/reviews4.webp" alt="image">
+                                            </div>
+                                            <div class="reviews-item-info">
+                                                <div class="reviews-item-header G-justify-between">
+                                                    <div class="reviews-author">
+                                                        <h4>Оксана Л.</h4>
+                                                        <p>SMM-менеджер</p>
+                                                    </div>
+                                                    <div class="reviews-icon G-flex">
+                                                        <img src="assets/images/estimation1.svg" alt="">
+                                                    </div>
+
+                                                </div>
+                                                <div class="reviews-item-text">
+                                                    Клиенты кидают брифы в PDF, и раньше это была головная боль. Теперь
+                                                    просто загружаю и правлю в Word — экономит кучу времени.
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div data-id="reviews5" class="reviews-item G-flex">
+                                            <div class="reviews-item-img G-flex">
+                                                <img src="assets/images/reviews5.webp" alt="image">
+                                            </div>
+                                            <div class="reviews-item-info">
+                                                <div class="reviews-item-header G-justify-between">
+                                                    <div class="reviews-author">
+                                                        <h4>Алена Т.</h4>
+                                                        <p>переводчик</p>
+                                                    </div>
+                                                    <div class="reviews-icon G-flex">
+                                                        <img src="assets/images/estimation1.svg" alt="">
+                                                    </div>
+
+                                                </div>
+                                                <div class="reviews-item-text">
+                                                    Мне часто присылают сканы договоров в PDF. Я удивилась, насколько
+                                                    точно сервис сохраняет формат и абзацы — меньше ручной работы.
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="swiper-slide">
+                                        <div data-id="reviews6" class="reviews-item G-flex">
+                                            <div class="reviews-item-img G-flex">
+                                                <img src="assets/images/reviews6.webp" alt="image">
+                                            </div>
+                                            <div class="reviews-item-info">
+                                                <div class="reviews-item-header G-justify-between">
+                                                    <div class="reviews-author">
+                                                        <h4>Евгений В.</h4>
+                                                        <p> бухгалтер</p>
+                                                    </div>
+                                                    <div class="reviews-icon G-flex">
+                                                        <img src="assets/images/estimation1.svg" alt="">
+                                                    </div>
+
+                                                </div>
+                                                <div class="reviews-item-text">
+                                                    Конвертирую отчёты, счета, накладные. Работает чётко, даже с
+                                                    таблицами справляется — не надо пересобирать вручную.
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="swiper-slide">
+                                        <div data-id="reviews7" class="reviews-item G-flex">
+                                            <div class="reviews-item-img G-flex">
+                                                <img src="assets/images/reviews7.webp" alt="image">
+                                            </div>
+                                            <div class="reviews-item-info">
+                                                <div class="reviews-item-header G-justify-between">
+                                                    <div class="reviews-author">
+                                                        <h4>Алексей Г.</h4>
+                                                        <p>HR-специалист</p>
+                                                    </div>
+                                                    <div class="reviews-icon G-flex">
+                                                        <img src="assets/images/estimation1.svg" alt="">
+                                                    </div>
+
+                                                </div>
+                                                <div class="reviews-item-text">
+                                                    Использую для обработки резюме, которые приходят в виде PDF.
+                                                    Конвертация в Word позволяет быстро вставить нужные данные в
+                                                    шаблоны.
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="swiper-slide">
+                                        <div data-id="reviews8" class="reviews-item G-flex">
+                                            <div class="reviews-item-img G-flex">
+                                                <img src="assets/images/reviews8.webp" alt="image">
+                                            </div>
+                                            <div class="reviews-item-info">
+                                                <div class="reviews-item-header G-justify-between">
+                                                    <div class="reviews-author">
+                                                        <h4>Роман П.</h4>
+                                                        <p>разработчик</p>
+                                                    </div>
+                                                    <div class="reviews-icon G-flex">
+                                                        <img src="assets/images/estimation1.svg" alt="">
+                                                    </div>
+
+                                                </div>
+                                                <div class="reviews-item-text">
+                                                    Иногда клиенты присылают техзадания в виде PDF, и нужно править.
+                                                    Удобно, что не нужно ставить программы — всё работает в браузере.
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="swiper-slide">
+                                        <div data-id="reviews9" class="reviews-item G-flex">
+                                            <div class="reviews-item-img G-flex">
+                                                <img src="assets/images/reviews9.webp" alt="image">
+                                            </div>
+                                            <div class="reviews-item-info">
+                                                <div class="reviews-item-header G-justify-between">
+                                                    <div class="reviews-author">
+                                                        <h4>Наталья Н.</h4>
+                                                        <p>маркетолог</p>
+                                                    </div>
+                                                    <div class="reviews-icon G-flex">
+                                                        <img src="assets/images/estimation1.svg" alt="">
+                                                    </div>
+
+                                                </div>
+                                                <div class="reviews-item-text">
+                                                    PDF-кейсы, которые нам присылают, теперь можно легко адаптировать
+                                                    под презентации. Просто, быстро, и не ломает верстку.
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <div class="reviews-pagination swiper-pagination"></div>
+
+
+                            </div>
+
+
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+
+        <section id="faq" class="faq-section section">
+            <div class="container">
+                <div class="faq-body G-align-start">
+                    <div class="faq-titles">
+                        <div class="section-title G-align-center">
+                            <img src="assets/images/stars.webp" alt="">
+                            <h2>FAQ</h2>
+
+                        </div>
+
+                        <p class="section-sub-title">Ваши вопросы</p>
+                    </div>
+
+                    <div class="faq-items G-flex-column">
+
+                        <div class="faq-item active">
+                            <div class="faq-item-header G-justify-between">
+                                <p>Какой формат я получу на выходе?</p>
+                                <div class="faq-item-icon G-center"></div>
+                            </div>
+                            <div class="faq-item-sub">
+                                <p>
+                                    Вы получите .doc или .docx — стандартный Word-файл, который можно редактировать, как
+                                    обычный документ.
+                                </p>
+                            </div>
+                        </div>
+
+
+                        <div class="faq-item ">
+                            <div class="faq-item-header G-justify-between">
+                                <p>Останется ли форматирование, таблицы и картинки?</p>
+                                <div class="faq-item-icon G-center"></div>
+                            </div>
+                            <div class="faq-item-sub">
+                                <p>
+                                    Да, мы стараемся сохранить максимально точную структуру: абзацы, таблицы,
+                                    изображения, шрифты. В большинстве случаев всё выглядит так же, как в оригинале.
+                                </p>
+                            </div>
+                        </div>
+
+
+                        <div class="faq-item ">
+                            <div class="faq-item-header G-justify-between">
+                                <p>Что делать, если в PDF только сканы?</p>
+                                <div class="faq-item-icon G-center"></div>
+                            </div>
+                            <div class="faq-item-sub">
+                                <p>
+                                    Если PDF содержит отсканированные страницы, сервис постарается распознать текст с
+                                    помощью встроенного OCR. Точность зависит от качества сканов.
+                                </p>
+                            </div>
+                        </div>
+
+
+                        <div class="faq-item ">
+                            <div class="faq-item-header G-justify-between">
+                                <p>Есть ли ограничения по размеру файла?</p>
+                                <div class="faq-item-icon G-center"></div>
+                            </div>
+                            <div class="faq-item-sub">
+                                <p>
+                                    Обычно мы обрабатываем файлы до 50 МБ, но это может зависеть от формата. Если файл
+                                    не загружается — попробуйте его сжать или разделить.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="faq-item ">
+                            <div class="faq-item-header G-justify-between">
+                                <p>Конфиденциально ли это?</p>
+                                <div class="faq-item-icon G-center"></div>
+                            </div>
+                            <div class="faq-item-sub">
+                                <p>
+                                    Да. Мы не сохраняем ваши документы после конвертации, и доступ к ним есть только у
+                                    вас. Всё обрабатывается безопасно.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="faq-item ">
+                            <div class="faq-item-header G-justify-between">
+                                <p>Сколько времени занимает конвертация?</p>
+                                <div class="faq-item-icon G-center"></div>
+                            </div>
+                            <div class="faq-item-sub">
+                                <p>
+                                    В среднем — от 2 до 10 секунд, в зависимости от размера и сложности файла.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="faq-item ">
+                            <div class="faq-item-header G-justify-between">
+                                <p>Можно ли конвертировать сразу несколько файлов?</p>
+                                <div class="faq-item-icon G-center"></div>
+                            </div>
+                            <div class="faq-item-sub">
+                                <p>
+                                    Да, поддерживается пакетная загрузка. Просто добавьте несколько PDF, и они
+                                    сконвертируются разом
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="faq-line">
+                        <img src="assets/images/faqIcon.png" alt="">
+                    </div>
+
+
+                </div>
+            </div>
+
+            <div class="faq-decor faq-decor--one">
+                <img src="assets/images/faqDecor1.png" alt="">
+            </div>
+            <div class="faq-decor faq-decor--two">
+                <img src="assets/images/faqDecor2.png" alt="">
+            </div>
+        </section>
+
+
+        <section class="conversion-section section">
+            <div class="container">
+                <div class="conversion-body">
+                    <div class="conversion-titles">
+                        <div class="section-title G-align-center">
+                            <img src="assets/images/stars.webp" alt="">
+                            <h2>Быстрая конвертация <span class="mobile-text-wrap">до 20 секунд</span></h2>
+
+                        </div>
+
+                        <p class="conversion-sub-title section-sub-title">Больше никаких танцев с PDF</p>
+                    </div>
+
+                    <div class="conversion-cnt G-justify-between">
+                        <div class="conversion-info">
+                            <div class="conversion-info-titles">
+                                <h3>GPT-4</h3>
+                                <p>Сломалась разметка? Не копируется текст? Всё, хватит.
+                                    Загрузите PDF в наш сервис — и получите аккуратный .docx, который можно
+                                    редактировать, без нервов</p>
+
+                                <div class="services-titles-decor G-flex">
+                                    <img class="img-desktop" src="assets/images/servicesTitlesDecor.png" alt="">
+                                    <img class="img-mobile" src="assets/images/servicesTitlesDecorMobile.png" alt="">
+
+                                </div>
+                            </div>
+                            
+                            <div class="conversion-media-mobile">
+                                <img src="assets/images/conversionMediaMobile.png" alt="">
+
+                                <div class="conversion-powered-mobile G-align-center">
+                                    <p>Powered by</p>
+                                    <i class="icon icon-powered"></i>
+                                    <p>OpenAI</p>
+                                </div>
+                            </div>
+
+
+
+                            <div class="conversion-info G-align-center">
+                                <div class="conversion-tools">
+                                    <div class="conversion-tools-title G-align-center">
+                                        <span>из</span> <img src="assets/images/titleIcon1.webp" alt="">
+                                        <span>PDF в </span>
+                                        <img src="assets/images/titleIcon2.webp" alt=""> <span>DOC и DOCX</span>
+                                    </div>
+                                    <button class="btn-primary">Конвертировать файлы</button>
+                                    <p>конвертация <a>за 5 секунд</a></p>
+                                </div>
+
+                                <div class="functional-socials G-align-center">
+                                    <a class="socials-item G-flex" href="">
+                                        <img src="assets/images/vk.webp" alt="">
+                                    </a>
+                                    <a class="socials-item G-flex" href="">
+                                        <img src="assets/images/google.webp" alt="">
+                                    </a>
+                                    <a class="socials-item G-flex" href="">
+                                        <img src="assets/images/yandex.png" alt="">
+                                    </a>
+                                </div>
+
+                            </div>
+
+                        </div>
+                        <div class="conversion-media G-flex">
+                            <div class="conversion-picture">
+                                <img src="assets/images/conversionMedia.png" alt="">
+                            </div>
+
+                            <div class="conversion-powered G-align-center">
+                                <p>Powered by</p>
+                                <i class="icon icon-powered"></i>
+                                <p>OpenAI</p>
+                            </div>
+
+                        </div>
+
+
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="conversion-decor conversion-decor--one G-flex">
+                <img class="img-desktop" src="assets/images/conversionDecor1.png" alt="">
+                <img class="img-mobile" src="assets/images/conversionDecor1Mobile.png" alt="">
+
+            </div>
+            <div class="conversion-decor conversion-decor--two G-flex">
+                <img class="img-desktop" src="assets/images/conversionDecor2.png" alt="">
+                <img class="img-mobile" src="assets/images/conversionDecor2Mobile.png" alt="">
+
+            </div>
+
+            <div class="conversion-decor-mobile decor-mobile--one G-flex">
+                <img  src="assets/images/conversionDecorMobile.png" alt="">
+
+            </div>
+<!--            <div class="conversion-decor-mobile decor-mobile&#45;&#45;two G-flex">-->
+<!--                <img  src="assets/images/conversionDecorMobile2.png" alt="">-->
+
+<!--            </div>-->
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-body G-justify-between">
+
+                <a class="footer-logo G-flex" href="">
+                    <img class="img-desktop" src="assets/images/logo.svg" alt="">
+                    <img class="img-mobile" src="assets/images/footerLogoMobile.svg" alt="">
+
+
+                </a>
+
+
+                <nav class="footer-menu">
+                    <ul class='footer-menu-list G-align-center'>
+                        <li class="menu-item">
+                            <a class='menu-link' href="#advantages">Преимущества</a>
+                        </li>
+                        <li class="menu-item">
+                            <a class="menu-link" href="#howWorq">Как работает</a>
+                        </li>
+                        <li class="menu-item">
+                            <a class="menu-link" href="#functional">Функционал</a>
+                        </li>
+                        <li class="menu-item">
+                            <a class="menu-link" href="#reviews">Отзывы</a>
+                        </li>
+                        <li class="menu-item">
+                            <a class="menu-link" href="#faq">FAQ</a>
+                        </li>
+                    </ul>
+                </nav>
+
+                <p class="footer-clue-mobile">
+                    © 2025 GPT-4.
+                    <span class="text-wrap">Все права защищены.</span>
+                </p>
+                <div class="footer-actions G-align-center">
+                    <button class="btn-login">Вход</button>
+                    <button class="btn-register">Регистрация</button>
+                </div>
+
+            </div>
+
+            <p class="footer-clue">
+                © 2025 GPT-4.
+                <span class="text-wrap">Все права защищены.</span>
+            </p>
+        </div>
+
+        <div class="footer-decor G-flex">
+            <img class="img-desktop" src="assets/images/footerdecor.webp" alt="">
+            <img class="img-mobile" src="assets/images/footerdecorMobile.png" alt="">
+
+        </div>
+    </footer>
+
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<script src="assets/js/swiper.js"></script>
+<script src="assets/js/index.js"></script>
+
+</body>
+</html>
+
+
+
+
+
+
