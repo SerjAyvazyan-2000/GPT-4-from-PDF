@@ -886,9 +886,13 @@
 }
 
 .functional-item-icon {
-    display: none;
+    display: flex;
+    max-width: 33px;
 }
 
+.functional-item-title {
+    gap: 8px;
+}
 .functional-item-socials p {
     font-weight: 400;
     font-size: 15px;
@@ -1331,9 +1335,6 @@
 
 }
 
-.conversion-cnt {
-    margin-top: 70px;
-}
 
 .conversion-info-titles {
     position: relative;
@@ -1368,7 +1369,7 @@
 }
 
 .conversion-info {
-    margin-top: 77px;
+    margin-top: 69px;
     gap: 31px;
     position: relative;
     flex-wrap: wrap;
@@ -1450,7 +1451,7 @@
 
 .conversion-decor--two {
     right: 0;
-    top: -140px;
+    top: -100px;
 }
 .conversion-decor-mobile{
     display: none;
@@ -2105,14 +2106,8 @@
         display: none;
     }
 
-    .functional-item-icon {
-        display: flex;
-        max-width: 33px;
-    }
 
-    .functional-item-title {
-        gap: 8px;
-    }
+
 
     .desktop-socials {
         display: none;

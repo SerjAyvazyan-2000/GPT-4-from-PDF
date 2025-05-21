@@ -172,7 +172,7 @@ document.querySelectorAll('.menu-link').forEach(link => {
         const targetElement = document.getElementById(targetId);
 
         if (targetElement) {
-            const headerHeight = document.querySelector('header').offsetHeight;
+            const headerHeight = document.querySelector('header').offsetHeight + 50;
             const targetPosition = targetElement.getBoundingClientRect().top + window.scrollY - headerHeight;
 
             window.scrollTo({
